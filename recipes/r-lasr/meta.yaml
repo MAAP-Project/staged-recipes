@@ -39,17 +39,17 @@ requirements:
     - r-base
     - r-rcpp
     - r-r.utils
-    - libgdal-core
+    - libgdal ==3.8.5
     - libgomp
-    - proj
-    - geos
+    - proj ==9.4.0
+    - geos ==3.12.1
     - _openmp_mutex
 
   run:
     - r-base
-    - libgdal-core
-    - proj
-    - geos
+    - libgdal ==3.8.5
+    - proj ==9.4.0
+    - geos ==3.12.1
 
 test:
   commands:
